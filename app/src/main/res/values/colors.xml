@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <style name="estudiante">
+        <item name="android:textSize">20dp</item> <!-- Ajusta el tamaño de texto -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto -->
+        <item name="android:fontFamily">sans-serif</item>
+        <!-- Agrega más atributos según sea necesario -->
+    </style>
+
+    <style name="docente">
+        <item name="android:textSize">20sp</item> <!-- Ajusta el tamaño del texto -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto -->
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+    <color name="colorLightBlue">#69AFDD</color>
+    <color name="colorDarkBlue">#31386F</color>
+
+</resources>

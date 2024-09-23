@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Asis</string>
+    <string name="estudiante">Estudiante</string>
+    <string name="docente">Docente</string>
+</resources>
