@@ -1,5 +1,7 @@
 package com.jafetinventos.asis
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
@@ -17,10 +19,12 @@ class MainActivity2 : AppCompatActivity() {
             Toast.makeText(this, "Función Docente ", Toast.LENGTH_SHORT).show()
         }
 
-        // boton estudiante
+        // botón estudiante
         val estudianteTextView: TextView = findViewById(R.id.estudiante)
         estudianteTextView.setOnClickListener {
-            Toast.makeText(this, "Funciona Estudiante", Toast.LENGTH_SHORT).show()
+            // Cambia a la nueva pantalla (EstudianteActivity)
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)  // Inicia la nueva actividad
         }
     }
 }
