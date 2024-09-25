@@ -2,4 +2,9 @@
     <string name="app_name">Asis</string>
     <string name="estudiante">Estudiante</string>
     <string name="docente">Docente</string>
+    <string name="nombre_apel">Nombre/Apellido:</string>
+    <string name="nombre_apel1">Número de carnet:</string>
+    <string name="nombre_apel2">Carrera:</string>
+    <string name="nombre_apel3">Número de matrícula:</string>
+    <string name="inicio">Inicio</string>
 </resources>
